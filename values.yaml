@@ -1,6 +1,6 @@
 deployment_name: mvn-deployment
 app_name: mvn-app
-replicas: 3
+replicas: 4
 image: vlad0b/vl-neo-stage:latest
 svc_name: mvn-service
 svc_port: 8080
