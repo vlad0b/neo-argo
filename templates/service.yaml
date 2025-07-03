@@ -7,7 +7,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: {{ .Values.port }}
+  - port: {{ .Values.svc_port }}
     protocol: TCP
   selector:
     run: {{ .Values.app_name | quote }}
